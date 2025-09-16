@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente Especial para Isabel ✨</title>
+    
+    <!-- Meta tags para partilha no WhatsApp -->
+    <meta property="og:title" content="Um presente especial para ti, Isabel ✨">
+    <meta property="og:description" content="Uma experiência mágica de aniversário criada especialmente para ti">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/9B59B6/FFFFFF?text=Presente+Especial">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Um presente especial para ti, Isabel ✨">
+    <meta name="twitter:description" content="Uma experiência mágica de aniversário criada especialmente para ti">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Controles de Música -->
+    <div class="music-controls">
+        <button id="musicToggle" class="music-btn">🎵</button>
+    </div>
+
+    <!-- FASE 1: Página Inicial -->
+    <section id="phase1" class="phase active">
+        <div class="container">
+            <h1 class="main-title">Um presente especial para ti, Isabel ✨</h1>
+            
+            <div class="gift-box-container">
+                <div class="gift-box">
+                    <div class="box-top"></div>
+                    <div class="box-body"></div>
+                    <div class="ribbon-horizontal"></div>
+                    <div class="ribbon-vertical"></div>
+                    <div class="bow">
+                        <div class="bow-left"></div>
+                        <div class="bow-right"></div>
+                        <div class="bow-center"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="openGiftBtn" class="golden-btn">Abrir Presente 🎁</button>
+        </div>
+    </section>
+
+    <!-- FASE 2: Animação de Abertura -->
+    <section id="phase2" class="phase">
+        <div class="container">
+            <div class="opening-animation">
+                <div class="golden-light"></div>
+                <div class="sparkles"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FASE 3: Cartão de Aniversário -->
+    <section id="phase3" class="phase">
+        <div class="container">
+            <div class="birthday-card">
+                <h2 class="card-title">Feliz Aniversário, meu Amor! 🎉</h2>
+                
+                <!-- Carousel de Fotos -->
+                <div class="photo-carousel">
+                    <div class="photo-placeholder">[ADICIONAR_FOTO_1]</div>
+                    <div class="photo-placeholder">[ADICIONAR_FOTO_2]</div>
+                    <div class="photo-placeholder">[ADICIONAR_FOTO_3]</div>
+                    <!-- PERSONALIZAÇÃO: Substitua os placeholders acima pelas suas fotos -->
+                </div>
+                
+                <div class="card-message">
+                    <!-- PERSONALIZAÇÃO: Edite a mensagem abaixo -->
+                    <p>Espero que seja um sonho de presente tal como é um sonho poder estar contigo ❤️</p>
+                </div>
+                
+                <div class="card-signature">
+                    <p>Carlos</p>
+                </div>
+                
+                <button id="seeGiftBtn" class="subtle-btn">Ver o teu presente →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FASE 4: Voucher do Hotel -->
+    <section id="phase4" class="phase">
+        <div class="container">
+            <div class="voucher">
+                <div class="voucher-header">
+                    <h2 class="hotel-name">Sleep & Nature Hotel</h2>
+                    <p class="voucher-subtitle">Voucher de Estadia</p>
+                </div>
+                
+                <div class="voucher-body">
+                    <div class="voucher-info">
+                        <p><strong>Número de confirmação:</strong> #6749102878</p>
+                        <p><strong>Beneficiário:</strong> Isabel Santos</p>
+                        <p><strong>Oferta de:</strong> Carlos Brito</p>
+                    </div>
+                    
+                    <div class="reservation-details">
+                        <h3>DETALHES DA RESERVA:</h3>
+                        <ul>
+                            <li><strong>Check-in:</strong> 28 de Novembro de 2025 (15h00)</li>
+                            <li><strong>Check-out:</strong> 01 de Dezembro de 2025 (12h00)</li>
+                            <li><strong>Acomodação:</strong> Quarto Duplo com Pátio</li>
+                            <li><strong>Regime:</strong> Pequeno-almoço incluído</li>
+                            <li><strong>Duração:</strong> 3 noites - Pacote Estadia Longa</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="voucher-footer">
+                    <p>Válido mediante apresentação deste voucher</p>
+                    <div class="qr-code">
+                        <div class="qr-pattern"></div>
+                    </div>
+                </div>
+                
+                <button id="finalMessageBtn" class="golden-btn">Continuar ✨</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FASE 5: Mensagem Final -->
+    <section id="phase5" class="phase">
+        <div class="container">
+            <div class="confetti-container"></div>
+            <div class="final-message">
+                <h2>Vamos sonhar juntos 😅</h2>
+                <button id="backToVoucherBtn" class="subtle-btn">Ver voucher novamente</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio para música de fundo -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav">
+        <!-- Fallback para música de fundo - será substituído por uma versão instrumental de "Parabéns" -->
+    </audio>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+

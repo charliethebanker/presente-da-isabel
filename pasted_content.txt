@@ -1,0 +1,97 @@
+TAREFA: Criar experiência web interativa de presente digital de aniversário
+
+CONTEXTO:
+Preciso de uma página web interativa para revelar um presente de aniversário - uma estadia no hotel Sleep & Nature em Evora. A experiência deve ser emocional mas moderna, permitindo "desembrulhar" digitalmente o presente antes de revelar o voucher da estadia.
+
+OBJETIVO PRINCIPAL:
+Criar uma aplicação web completa e funcional que simule a experiência de desembrulhar um presente, com as seguintes características:
+
+ESPECIFICAÇÕES TÉCNICAS:
+1. Tecnologias: HTML5, CSS3, JavaScript vanilla (sem dependências externas)
+2. Totalmente responsivo (funcionar perfeitamente em telemóvel)
+3. Página única com transições suaves
+4. Hospedar online com URL partilhável
+
+ESTRUTURA DA EXPERIÊNCIA (5 FASES):
+
+FASE 1 - PÁGINA INICIAL:
+- Fundo com gradiente suave em tons de roxo (#9B59B6 para #8E44AD)
+- Caixa de presente 3D centralizada:
+  * Cor: Vermelho vibrante (#E74C3C)
+  * Laço: Dourado metálico (#FFD700) com brilho subtil
+  * Animação suave de floating (subir e descer levemente)
+- Texto elegante: "Um presente especial para ti, Isabel ✨"
+- Botão dourado: "Abrir Presente 🎁"
+- Música de fundo: Versão instrumental suave de "Parabéns a Você" (usar Web Audio API ou embed de versão royalty-free)
+
+FASE 2 - ANIMAÇÃO DE ABERTURA:
+- Ao clicar, o laço desfaz-se com animação suave
+- A caixa abre-se revelando luz dourada de dentro
+- Transição com fade para a próxima fase
+
+FASE 3 - CARTÃO DE ANIVERSÁRIO:
+- Design de cartão elegante com bordas arredondadas
+- Título: "Feliz Aniversário, meu Amor! 🎉"
+- Área para mensagem personalizada com placeholder:
+  "Espero que seja um sonho de presente tal como é um sonho poder estar contigo ❤️"
+- Assinatura: "Carlos"
+- Botão sutil: "Ver o teu presente →"
+- Incluir espaço para carousel de 3-5 fotos (placeholders por agora)
+
+FASE 4 - VOUCHER DO HOTEL:
+Design profissional de voucher que pareça oficial:
+
+HEADER:
+- Logo/Nome: "Sleep & Nature Hotel"
+- Subtítulo: "Voucher de Estadia"
+
+CORPO DO VOUCHER:
+- Número de confirmação: #6749102878
+- Beneficiário: Isabel Santos
+- Oferta de: Carlos Brito
+- 
+- DETALHES DA RESERVA:
+  * Check-in: 28 de Novembro de 2025 (15h00)
+  * Check-out: 01 de Dezembro de 2025 (12h00)
+  * Acomodação: Quarto Duplo com Pátio
+  * Regime: Pequeno-almoço incluído
+  * Duração: 3 noites - Pacote Estadia Longa
+
+FOOTER DO VOUCHER:
+- "Válido mediante apresentação deste voucher"
+- QR Code decorativo (pode ser fictício mas realista)
+
+FASE 5 - MENSAGEM FINAL:
+- Confettis animados caindo suavemente
+- Texto: "Vamos sonhar juntos 😅"
+- Botão para voltar a ver o voucher
+
+REQUISITOS DE DESIGN:
+- Paleta de cores: Roxo (#9B59B6), Vermelho (#E74C3C), Dourado (#FFD700), Branco (#FFFFFF)
+- Tipografia: Fontes Google elegantes (Playfair Display para títulos, Lato para texto)
+- Sombras suaves e cantos arredondados para aspeto moderno
+- Animações CSS suaves (não exagerar)
+- Ícones minimalistas onde apropriado
+
+ESTRUTURA DE FICHEIROS:
+- index.html (estrutura completa)
+- styles.css (todos os estilos)
+- script.js (toda a interatividade)
+- README.md (instruções de personalização)
+
+IMPORTANTE:
+1. O código deve ter comentários indicando onde personalizar a mensagem e adicionar fotos
+2. Criar placeholders claros marcados como [ADICIONAR_FOTO_1], [ADICIONAR_FOTO_2], etc.
+3. A música deve começar automaticamente mas com controles para pausar
+4. Incluir meta tags para partilha no WhatsApp com preview bonito
+
+DEPLOY:
+Fazer deploy automático numa plataforma gratuita (Netlify, Vercel ou GitHub Pages) e fornecer o link final funcional.
+
+OUTPUT ESPERADO:
+1. Link funcional da aplicação online
+2. Código-fonte completo e organizado
+3. Instruções claras sobre onde/como adicionar a mensagem personalizada e fotos
+4. Preview de como ficará no telemóvel
+
+Por favor, cria esta experiência completa e mágica, garantindo que funciona perfeitamente no telemóvel (onde será aberta via WhatsApp). O resultado deve ser emocionante mas elegante, moderno mas com toque romântico.
